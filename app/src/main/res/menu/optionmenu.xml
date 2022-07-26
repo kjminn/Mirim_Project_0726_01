@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_rotate"
+        android:title="그림회전"/>
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/item_yang"
+            android:checked="true"
+            android:title="양양"/>
+        <item
+            android:id="@+id/item_napoli"
+            android:title="나폴리"/>
+        <item
+            android:id="@+id/item_thai"
+            android:title="태국"/>
+    </group>
+</menu>
